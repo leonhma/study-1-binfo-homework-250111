@@ -1,0 +1,17 @@
+digraph initial {
+	ATTTGC -> TTGCGC [label=4];
+	ATTTGC -> CCTAAG [label=1];
+	ATTTGC -> GCAGAG [label=2];
+	GACCTA -> ATTTGC [label=1];
+	GACCTA -> AGAGAC [label=1];
+	GACCTA -> CCTAAG [label=4];
+	AGAGAC -> GACCTA [label=3];
+	AGAGAC -> CCTAAG [label=1];
+	TTGCGC -> CCTAAG [label=1];
+	TTGCGC -> GCAGAG [label=2];
+	CCTAAG -> GACCTA [label=1];
+	CCTAAG -> AGAGAC [label=2];
+	CCTAAG -> GCAGAG [label=1];
+	GCAGAG -> GACCTA [label=1];
+	GCAGAG -> AGAGAC [label=4];
+}
